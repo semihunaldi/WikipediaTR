@@ -3,7 +3,7 @@
 
   "name": "WikipediaTR",
   "description": "This extension routes wikipedia url's to www.0wikipedia.org automatically to override restrictions in Turkey.",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
 
   "author": "Semih Ünaldı (www.semihunaldi.com)",
 

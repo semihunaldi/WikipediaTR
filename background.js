@@ -8,7 +8,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changedInfo, tab) {
     if(url.hostname.indexOf("wikipedia") !== -1)
     {
         var prefix = extractPrefix(url.hostname);
-        url.hostname = prefix + ".0wikipedia.org";
+        url.hostname = prefix + "0wikipedia.org";
         chrome.tabs.update(tab.id, {url: url.toString()});
     }
 });
@@ -17,7 +17,7 @@ function extractPrefix(hostname)
 {
     if(hostname.indexOf(".") !== -1)
     {
-        return hostname.substring(0,hostname.indexOf("."));
+        return hostname.substring(0,hostname.indexOf(".")).concat(".");
     }
     return "";
 }
