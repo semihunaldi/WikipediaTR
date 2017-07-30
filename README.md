@@ -1,0 +1,1 @@
+This Chrome extension routes wikipedia url's to www.0wikipedia.org automatically to override wikipeadia restrictions in Turkey.
